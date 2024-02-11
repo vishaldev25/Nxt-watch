@@ -1,0 +1,17 @@
+.video-details-bg-dark-theme {
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+.video-details-bg-light-theme {
+  background-color: #f9f9f9;
+}
+.liked-color {
+  color: #2563eb;
+}
+.normal-color {
+  color: #64748b;
+}
+.buttons-likes {
+  background-color: transparent;
+  border: 0;
+}

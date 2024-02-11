@@ -1,0 +1,36 @@
+.notFound-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.notfound-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.notfound-desc {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.notfound-img {
+  width: 100px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .notfound-img {
+    width: 250px;
+    height: 250px;
+  }
+  .notfound-heading {
+    font-size: 28px;
+  }
+  .notfound-desc {
+    font-size: 20px;
+  }
+}

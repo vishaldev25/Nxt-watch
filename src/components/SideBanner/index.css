@@ -1,0 +1,52 @@
+.side-bar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  width: 24%;
+  min-height: 100vh;
+  border: 0;
+}
+.sidebanner-container {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+.sidebanner-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+}
+.side-dark-theme {
+  color: #ffffff;
+}
+.side-light-theme {
+  color: #231f20;
+}
+.contact-logos {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+.contactus-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.contactus-para {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 576px) {
+  .side-bar-container {
+    display: none;
+  }
+}
